@@ -1,0 +1,93 @@
+body{
+    /* PRECISA DEFINIR UM TAMANHO PARA O BODY */
+    width: 1260px;
+    height: 1195px;
+    margin: 20px auto;
+}
+
+header{
+    background-color: #ffc8ae;
+    /* BORDA espessura, tipo, cor */
+    border: 3px solid #bd081c;
+    margin:30px 100px;
+    height: 222px;
+}
+
+nav{
+    background-color: #e0ffa8;
+    border: 3px solid #598527;
+    margin: 30px 30px;
+    width: 95%;
+    height: 106px;
+}
+
+main{
+    background-color: #ffc8ae;
+    border: 3px solid #bd081c;
+    height: 675px;
+    margin: 0px 100px;
+}
+
+article{
+    background-color: #dddddd;
+    border: 3px solid #464646;
+    margin: 30px 30px;
+    width: 60%;
+    height: 548px;
+    float: left;
+}
+
+section{
+    background-color: #ccffff;
+    border: 3px solid #0f62a4;
+    margin: 30px;
+    height: 122px;
+}
+
+aside{
+    background-color: #dddddd;
+    border: 3px solid #464646;
+    width: 20%;
+    height: 548px;
+    margin: 30px;
+    /* FLOAT SIGNIFICA QUE FLUTUA PAA ALGUM LUGAR */
+    float: right;
+    margin-right: 30px;
+}
+
+footer{
+    background-color: #ffc8ae;
+    border: 3px solid #bd081c;
+    margin: 30px 100px;
+    height: 222px;
+}
+
+/* CLASSES */
+.red{
+    background-color: #bd081c;
+    color: white;
+    /* PADDING É MARGEM INTERNA */
+    padding: 0px 20px 5px 20px;
+}
+
+.green{
+    background-color: #598527;
+    color: white;
+    padding: 0px 20px 5px 20px;
+}
+
+.gray{
+    background-color: #464646;
+    color: white;
+    padding: 0px 20px 5px 20px;
+}
+
+.blue{
+    background-color: #0f62a4;
+    color: white;
+    padding: 0px 20px 5px 20px;
+}
+
+span{
+    float: left;
+}
